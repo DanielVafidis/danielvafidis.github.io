@@ -7,7 +7,6 @@ const colors = window.matchMedia("(prefers-color-scheme: light)");
 (colors.matches) ? mountElement.classList.toggle('light') : mountElement.classList.toggle('dark');
 
 function onChange() {
-    console.log("click")
     let mountElement = document.querySelector('body');
     mountElement.classList.toggle('dark');
     mountElement.classList.toggle('light');
@@ -18,7 +17,6 @@ const ThemeSwitcher = () => {
         <div className="Switch">
             <div className="toggleWrapper">
                 <input type="checkbox" className="dn" id="dn" onChange={onChange} defaultChecked={!colors.matches} />
-                {console.log(colors)}
                 <label htmlFor="dn" className="toggle">
                     <span className="toggle__handler">
                         <span className="crater crater--1"></span>

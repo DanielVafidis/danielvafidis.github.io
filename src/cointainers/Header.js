@@ -6,10 +6,7 @@ import { ReactComponent as Waves } from '../img/Waves.svg'
 import ThemeSwitcher from '../components/ThemeSwitcher';
 
 
-
-
 const Header = () => {
-
     return (
         <section id='Header'>
             <div className="header">
