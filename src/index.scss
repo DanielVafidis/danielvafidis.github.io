@@ -1,0 +1,104 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;   
+}
+
+#tools, #projects{
+    padding-top: 10vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    color:var(--color);
+    padding: 2rem;
+}
+
+
+/* dark.css */
+@media (prefers-color-scheme: dark) {
+    :root .light{
+    --color: #121212;
+    --background-color: #fff;
+    --link-color: rgb(0, 0, 238);
+    --main-headline-color: #b75d69;
+    --accent-background-color: #fff;
+    --accent-color: #f4f4f4;
+
+    --wave1:rgba(255, 255, 255, 0.7);
+    --wave2:rgba(255, 255, 255, 0.5);
+    --wave3:rgba(255, 255, 255, 0.3);
+    --wave4:rgba(255, 255, 255, 1);
+
+    --card-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+:root .dark{
+    --color: #fff;
+    --background-color: rgba(12, 21, 74, 1);
+    --link-color: rgb(207, 218, 219);
+    --main-headline-color: rgb(233, 30, 99);
+    --accent-background-color:rgba(8, 14, 51, 1);
+    --accent-color: #fff;
+
+    --wave1:rgba(12, 21, 74, 0.3);
+    --wave2:rgba(12, 21, 74, 0.5);
+    --wave3:rgba(12, 21, 74, 0.7);
+    --wave4:rgba(12, 21, 74, 1);
+
+    --card-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+
+}
+
+/* light.css */
+
+@media (prefers-color-scheme: no-preference), (prefers-color-scheme: light) {
+    :root .light{
+    --color: #121212;
+    --background-color: #fff;
+    --link-color: rgb(0, 0, 238);
+    --main-headline-color: #b75d69;
+    --accent-background-color: #fff;
+    --accent-color: #f4f4f4;
+
+    --wave1:rgba(255, 255, 255, 0.7);
+    --wave2:rgba(255, 255, 255, 0.5);
+    --wave3:rgba(255, 255, 255, 0.3);
+    --wave4:rgba(255, 255, 255, 1);
+
+    --card-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    :root .dark{
+        --color: #fff;
+        --background-color: rgba(12, 21, 74, 1);
+        --link-color: rgb(207, 218, 219);
+        --main-headline-color: rgb(233, 30, 99);
+        --accent-background-color: rgba(8, 14, 51, 1);
+        --accent-color: #fff;
+
+        --wave1:rgba(12, 21, 74, 0.3);
+        --wave2:rgba(12, 21, 74, 0.5);
+        --wave3:rgba(12, 21, 74, 0.7);
+        --wave4:rgba(12, 21, 74, 1);
+
+        --card-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    }
+}
+
+
+
+
+
+

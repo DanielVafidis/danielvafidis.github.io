@@ -1,0 +1,18 @@
+#contact {
+    color: var(--color);
+    padding: 10vh 0 5vh;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 32px);
+
+    .item svg{
+        width: 32px;
+        height: 32px;
+    }
+}
+
