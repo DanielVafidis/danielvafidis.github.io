@@ -12,17 +12,9 @@ const Projects = () => {
     const [data, setData] = useState({});
     const [ready, setReady] = useState(false);
 
-    var myHeaders = new Headers();
-    myHeaders.append('access-control-allow-origin', '*');
-    var myInit = {
-        method: 'GET',
-        headers: myHeaders,
-        mode: 'cors',
-        cache: 'default'
-    };
 
     useEffect(() => {
-        fetch(URL, myInit)
+        fetch(URL)
             .then((results) => results.json())
             .then((resp) => {
                 setData(resp);
