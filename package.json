@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
     "destyle.css": "^1.0.11",
     "moment": "^2.24.0",
     "node-sass": "^4.14.0",
@@ -27,7 +28,8 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      "last 2 versions",
+      ">0.2%,",
       "not dead",
       "not op_mini all"
     ],

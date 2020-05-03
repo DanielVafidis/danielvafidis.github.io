@@ -1,18 +1,25 @@
 #tools{
     text-align: center;
     background-color: var(--background-color);
-    color: var(--color);
     
+    .name{
+        font-weight: 600;;
+        font-size: 36px;
+    }
 
     .list{
         margin: 0 auto;
         width: 80vw;
         display: grid;
-        gap: 2rem;
+        gap: 3rem;
         align-items: center;
         justify-content: center;
         grid-template-columns: repeat(3, 48px);
+        .item{
+                color:var(--color);
+        }
     }
+    
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
@@ -33,12 +40,12 @@
             display: grid;
             align-items: center;
             grid-template-columns: repeat(6, 48px);
-            .item{
+            
                 
         }
     }
 }
-}
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {}

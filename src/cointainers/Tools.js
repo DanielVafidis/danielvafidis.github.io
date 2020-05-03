@@ -18,7 +18,7 @@ import { ReactComponent as Symfony } from '../icons/symfony.svg';
 const Tools = () => {
     return (
         <section id="tools">
-            <h2>My tools</h2>
+            <h2>My <span className="name">tools</span></h2>
             <div className="list">
                 <div className="item"><VisualStudioCode /></div>
                 <div className="item"><Html5 /></div>

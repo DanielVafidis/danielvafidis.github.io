@@ -19,11 +19,9 @@ code {
     padding-top: 10vh;
 }
 
-h2{
-    text-align: center;
-    font-size: 32px;
-    color:var(--color);
-    padding: 2rem;
+h1, h2{
+    padding: 1rem;
+    color: var(--color);
 }
 
 
@@ -35,14 +33,15 @@ h2{
     --link-color: rgb(0, 0, 238);
     --main-headline-color: #b75d69;
     --accent-background-color: #fff;
-    --accent-color: #f4f4f4;
+    --accent-color: rgba(17, 30, 108, 1);
 
     --wave1:rgba(255, 255, 255, 0.7);
     --wave2:rgba(255, 255, 255, 0.5);
     --wave3:rgba(255, 255, 255, 0.3);
     --wave4:rgba(255, 255, 255, 1);
 
-    --card-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    --card-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+    --card-box-hover-shadow: 0px 6px 12px 0px rgba(0,0,0,0.8);
 }
 :root .dark{
     --color: #fff;
@@ -57,7 +56,8 @@ h2{
     --wave3:rgba(12, 21, 74, 0.7);
     --wave4:rgba(12, 21, 74, 1);
 
-    --card-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    --card-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+    --card-box-hover-shadow: 0px 6px 12px 0px rgba(0,0,0,0.8);
 }
 
 }
@@ -71,14 +71,15 @@ h2{
     --link-color: rgb(0, 0, 238);
     --main-headline-color: #b75d69;
     --accent-background-color: #fff;
-    --accent-color: #f4f4f4;
+    --accent-color: rgba(17, 30, 108, 1);
 
     --wave1:rgba(255, 255, 255, 0.7);
     --wave2:rgba(255, 255, 255, 0.5);
     --wave3:rgba(255, 255, 255, 0.3);
     --wave4:rgba(255, 255, 255, 1);
 
-    --card-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    --card-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+    --card-box-hover-shadow: 0px 6px 12px 0px rgba(0,0,0,0.8);
     }
     :root .dark{
         --color: #fff;
@@ -93,7 +94,8 @@ h2{
         --wave3:rgba(12, 21, 74, 0.7);
         --wave4:rgba(12, 21, 74, 1);
 
-        --card-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+        --card-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+        --card-box-hover-shadow: 0px 6px 12px 0px rgba(0,0,0,0.8);
     }
 }
 

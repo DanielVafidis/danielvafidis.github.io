@@ -3,48 +3,45 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  text-align: center;
   background: linear-gradient(80deg, rgba(32, 57, 204, 1) 0%, rgba(17, 30, 108, 1) 100%);
-  
   color: white;
   height: 80vh;
 
+  /*
   .greeting{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
     font-size: 48px;
   }
+  */
 
   h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 32px;
+    color: white;
+    .name{
+      font-weight: 600;
+    }
+    
   }
+  
+  
+
   h2{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
-    font-size: 24px;
+    font-size: 18px;
     color: white;
-    text-align: center;
-    padding: 2rem;
+    padding: 0 1rem;
+    opacity: 0.9;
   }
 }
-.inner-header {
-  height: 65vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.flex {
-  /*Flexbox for containers*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+
+
 
 .waves {
 
@@ -58,12 +55,6 @@
   */
   min-height: 80px;
 
-}
-.test {
-  min-height: 200vh;
-  text-align: center;
-  background-color: rgba(8, 14, 51, 1);
-  
 }
 /* Animation */
 .parallax>use {
@@ -94,23 +85,42 @@
     transform: translate3d(85px, 0, 0);
   }
 }
-/*Shrinking for mobile*/
-@media (min-width: 769px) {
-  .waves {
-    height: 15vh;
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  
+  .header{
+    .waves {
+      height: 15vh;
+    }
+
+    .greeting, h1 {
+      font-size: 72px;
+    }
+    h2{
+      font-size: 28px;
+    }
+    .title{
+      margin:0 auto;
+    }
   }
-  h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 72px;
+  
+  
 }
-h2{
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 28px;
-}
-}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+
+/*Shrinking for mobile*/
+
 
 

@@ -1,5 +1,23 @@
 #projects{
     background-color: var(--background-color);
+    .name{
+        font-weight: 600;
+        font-size: 36px;
+    }
+}
+
+h2{
+    font-size: 32px;
+    padding: 2rem;
+}
+.bold{
+    font-weight: 600;
+}
+
+.date{
+    opacity: 0.6;
+    font-variant: small-caps;
+    color: var(--accent-color);
 }
 
 .projects-list {
@@ -24,7 +42,7 @@
         width: 250px;
         height: 250px;
         box-shadow: var(--card-box-shadow);
-        transition: 0.3s;
+        transition: all .25s linear;
 
         /* card content */
         color: var(--color);
@@ -33,7 +51,7 @@
         grid-template-rows: 1fr 1fr 1fr;
         
         p {
-            color: var(--color);
+            align-self: center;
         }
         .testlogo{
             width: 64px;
@@ -43,6 +61,13 @@
         .projectName{
             margin: auto;
         }
+        .projectDate{
+            margin: auto;
+
+        }
+    }
+    .card:hover{
+        box-shadow: var(--card-box-hover-shadow);
     }
 }
 

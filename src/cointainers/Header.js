@@ -11,10 +11,10 @@ const Header = () => {
         <section id='Header'>
             <div className="header">
                 <ThemeSwitcher />
-                <div>
-                    <span className="greeting">Hi !</span>
-                    <h1>I'm Daniel Vafidis.</h1>
-                    <h2>I'm a Front-End Developer</h2>
+                <div className="title">
+                    {/*<h2 className="greeting">Hi !</h2>*/}
+                    <h1>I'm <span className="name">Daniel Vafidis.</span></h1>
+                    <h2>Front-end Developer</h2>
                 </div>
 
                 <Waves />
