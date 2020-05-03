@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24ef12a26dfa32505bdca2e18a8fda17",
+    "revision": "a3b7967080cdbc6be0a8cde158f9827b",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.18d8decb.chunk.css"
   },
   {
-    "revision": "e58aa1198cb53ae1bb71",
-    "url": "/static/css/main.d2fdbde7.chunk.css"
+    "revision": "87821af6b3aeab417935",
+    "url": "/static/css/main.a244f657.chunk.css"
   },
   {
     "revision": "5e754db4f24a2132be8b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.da973af2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e58aa1198cb53ae1bb71",
-    "url": "/static/js/main.6e465e2c.chunk.js"
+    "revision": "87821af6b3aeab417935",
+    "url": "/static/js/main.b0df0407.chunk.js"
   },
   {
     "revision": "399c6be641a04637d9af",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/symfony.215ac4f7.svg"
   },
   {
-    "revision": "e24ddb87f19d52fff94caa11a670771b",
-    "url": "/static/media/visual-studio-code.e24ddb87.svg"
+    "revision": "8b50aed8fca8f642d126eb67bd8a3708",
+    "url": "/static/media/visual-studio-code.8b50aed8.svg"
   },
   {
     "revision": "2d96d05907e21522dedc457c4d13a0da",
