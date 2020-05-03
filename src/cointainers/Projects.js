@@ -18,7 +18,6 @@ const Projects = () => {
         const fetchData = async () => {
             const result = await axios(URL);
             setData(result.data);
-            console.log(result.data);
         };
         fetchData();
     }, [URL]);
