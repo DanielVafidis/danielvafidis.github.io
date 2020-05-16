@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "098d692d2b1e868f5f3f3c262f230cf1",
+    "revision": "03c247781610eb12031bdf39c4884f50",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.18d8decb.chunk.css"
   },
   {
-    "revision": "1ae8933c1beabd49db34",
+    "revision": "bc97cb34a6336b3a8b3c",
     "url": "/static/css/main.a244f657.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.da973af2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ae8933c1beabd49db34",
-    "url": "/static/js/main.32db3f10.chunk.js"
+    "revision": "bc97cb34a6336b3a8b3c",
+    "url": "/static/js/main.39e8afbb.chunk.js"
   },
   {
     "revision": "399c6be641a04637d9af",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec5bc1b3148ca464a3a3e17af89c3ead",
     "url": "/static/media/github.ec5bc1b3.svg"
+  },
+  {
+    "revision": "ee82272211571bae8dfbe4bec11ab510",
+    "url": "/static/media/graphql.ee822722.svg"
   },
   {
     "revision": "d374537d3a40c32a94afc4417f2fe9f0",
@@ -94,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "215ac4f79f15f484db70dfba92e92c28",
     "url": "/static/media/symfony.215ac4f7.svg"
+  },
+  {
+    "revision": "050f765dd51e3e395ad464b3bc6ff1b6",
+    "url": "/static/media/typescript.050f765d.svg"
   },
   {
     "revision": "8b50aed8fca8f642d126eb67bd8a3708",
