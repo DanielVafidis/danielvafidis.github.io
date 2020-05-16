@@ -14,6 +14,9 @@ import { ReactComponent as Npm } from '../icons/npm.svg';
 import { ReactComponent as Yarn } from '../icons/yarn.svg';
 import { ReactComponent as Php } from '../icons/php.svg';
 import { ReactComponent as Symfony } from '../icons/symfony.svg';
+import { ReactComponent as GraphQL } from '../icons/graphql.svg';
+import { ReactComponent as Typescript } from '../icons/typescript.svg';
+
 
 const Tools = () => {
     return (
@@ -32,6 +35,8 @@ const Tools = () => {
                 <div className="item"><Yarn /></div>
                 <div className="item"><Php /></div>
                 <div className="item"><Symfony /></div>
+                <div className="item"><GraphQL /></div>
+                <div className="item"><Typescript /></div>
             </div>
         </section>
     )
