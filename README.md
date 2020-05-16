@@ -14,4 +14,4 @@
 
 > Note: You can find the source code of the website in the "Source" branch of this repository
 
-> This website have been built with Create-react-app and NPM, if you want to try it simply clone/download the source branch and `npm start` in the root folder.
+> This website has been built with Create-react-app and NPM, if you want to try it simply clone/download the source branch and `npm start` in the root folder.
