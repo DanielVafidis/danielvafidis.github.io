@@ -6,8 +6,8 @@
 
 - [HTML5](https://html5.org/)
 - [SASS (SCSS)](https://sass-lang.com/) / CSS3 (Flex and Grid)
-- [(REACT)](https://reactjs.org/)
-- [AXIOS (for github repositories)](https://github.com/axios/axios)
+- [ReactJS](https://reactjs.org/)
+- [Axios (for github repositories)](https://github.com/axios/axios)
 - Most icons are from [FontAwesome](https://fontawesome.com)
 - Waves and Light/Dark mode Toggle are borrowed from [CSSPOINT](https://csspoints.com/)
 
